@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   border-radius: 16px;
 }
 ::-webkit-scrollbar {
@@ -27,7 +27,7 @@ img {
   flex-shrink: 0;
   margin: 0 auto;
   font-style: normal;
-  color: white;
+  color: #393939;
   padding: 20px;
   padding-bottom: 100px;
 }
@@ -67,6 +67,7 @@ p {
   font-size: 100px;
   margin: 5px 0 200px 0;
   padding: 30px;
+  font-weight: 200;
 }
 
 .container-title {
@@ -74,6 +75,7 @@ p {
   padding: 30px;
   font-size: 28px;
   font-weight: 100;
+  font-family: "Roboto", sans-serif;
 }
 
 .projects-container {
@@ -84,8 +86,48 @@ p {
 }
 .header-title-projects {
   font-size: 100px;
-  margin: 5px 0 200px 0;
+  margin: 5px 0 50px 0;
   padding: 30px;
+  font-weight: 200;
+}
+.title-projects {
+  font-size: 60px;
+  margin: 5px 0 0 0;
+  padding: 30px;
+  font-weight: 100;
+}
+.fotoprojekt {
+  font-size: 100px;
+  margin: 5px 0 50px 0;
+  padding: 30px;
+  font-weight: 200;
+}
+.projects-text {
+  font-size: 36px;
+  padding: 30px;
+  color: #393939;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.projects-text div {
+  margin-bottom: 30px;
+  max-width: 1000px
+}
+.projects-heading {
+  font-size: 36px;
+  padding: 30px;
+  color:#393939;
+  font-weight: 100
+}
+.projects-title {
+  font-size: 80px;
+  margin: 5px 0 0 0;
+  padding: 30px;
+  font-weight: 100;
+}
+.project-img img {
+  width: 1300px;
+
 }
 
 @media (max-width: 600px) {
@@ -103,12 +145,34 @@ p {
   }
   .container-media img {
     width: 167px;
+    justify-content: space-around;
   }
   .header-title-projects {
     font-size: 50px;
-    margin: 5px 0 100px 0;
+    margin: 5px 0 0px 0;
   }
   .navbar {
     padding: 20px;
+  }
+  .fotoprojekt {
+    font-size: 50px;
+    margin: 5px 0 0px 0;
+    padding-bottom: 0;
+  }
+  .projects-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .projects-heading {
+    font-size:18px
+  }
+  .projects-title {
+    font-size: 50px;
+    margin: 5px 0 0px 0;
+    padding-top: 10px;
+    padding-bottom: 15px
+  }
+  .project-image img {
+    max-width: 100%;
   }
 }
