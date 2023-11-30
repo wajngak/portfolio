@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   border-radius: 16px;
+  color: #393939;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -13,7 +14,7 @@ body {
   overflow: -webkit-scrollbar;
 }
 body {
-  background-color: lavender;
+  background-color: #e6e6fa;
 }
 img {
   max-width: 100%;
@@ -27,7 +28,6 @@ img {
   flex-shrink: 0;
   margin: 0 auto;
   font-style: normal;
-  color: #393939;
   padding: 20px;
   padding-bottom: 100px;
 }
@@ -44,7 +44,6 @@ img {
 p {
   font-size: larger;
   padding-left: 10px;
-  color: #393939;
   padding-top: 0px;
   margin-top: 0px;
 }
@@ -86,9 +85,9 @@ p {
 }
 .header-title-projects {
   font-size: 100px;
-  margin: 5px 0 50px 0;
-  padding: 30px;
   font-weight: 200;
+  margin: auto;
+  max-width: 1300px;
 }
 .title-projects {
   font-size: 60px;
@@ -103,31 +102,44 @@ p {
   font-weight: 200;
 }
 .projects-text {
-  font-size: 36px;
-  padding: 30px;
-  color: #393939;
-  padding-top: 0px;
-  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  max-width: 850px;
+  margin: auto;
+  line-height: 130%;
+}
+.projects-text img {
+  width: 1000px;
 }
 .projects-text div {
   margin-bottom: 30px;
-  max-width: 1000px
 }
 .projects-heading {
   font-size: 36px;
-  padding: 30px;
-  color:#393939;
-  font-weight: 100
+  max-width: 850px;
+  color: #393939c8;
+  font-weight: 100;
+  margin: auto;
 }
 .projects-title {
   font-size: 80px;
-  margin: 5px 0 0 0;
-  padding: 30px;
   font-weight: 100;
+  max-width: 850px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
-.project-img img {
-  width: 1300px;
-
+.project-img {
+  max-width: 1300px;
+  margin: auto;
+}
+footer {
+  padding: 30px;
+  display: flex;
+  border-top: 1px solid;
+  border-radius: 0;
+  justify-content: space-between;
 }
 
 @media (max-width: 600px) {
@@ -150,6 +162,7 @@ p {
   .header-title-projects {
     font-size: 50px;
     margin: 5px 0 0px 0;
+    padding: 20px;
   }
   .navbar {
     padding: 20px;
@@ -162,17 +175,21 @@ p {
   .projects-text {
     font-size: 16px;
     margin-bottom: 10px;
+    padding: 20px;
+    line-height: normal;
   }
   .projects-heading {
-    font-size:18px
+    font-size: 18px;
+    padding: 20px;
   }
   .projects-title {
     font-size: 50px;
     margin: 5px 0 0px 0;
     padding-top: 10px;
-    padding-bottom: 15px
+    padding-bottom: 0px;
+    padding-left: 20px;
   }
-  .project-image img {
+  .projects-text img {
     max-width: 100%;
   }
 }
